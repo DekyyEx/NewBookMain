@@ -1,19 +1,23 @@
-package org.example.bookstoremain.entity;
+package org.example.bookstoremain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @Entity
-public class PickupLocation {
+public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String address;
-    private String city;
-    private String postalCode;
+    private String title;
+    private String author;
+    private String isbn;
+    private double price;
 }

@@ -1,6 +1,6 @@
 package org.example.bookstoremain.service;
 
-import org.example.bookstoremain.entity.User;
+import org.example.bookstoremain.model.User;
 import org.example.bookstoremain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

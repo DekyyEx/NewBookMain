@@ -1,6 +1,6 @@
 package org.example.bookstoremain;
 
-import org.example.bookstoremain.entity.User;
+import org.example.bookstoremain.model.User;
 import org.example.bookstoremain.repository.UserRepository;
 import org.example.bookstoremain.service.UserService;
 import org.junit.jupiter.api.Test;

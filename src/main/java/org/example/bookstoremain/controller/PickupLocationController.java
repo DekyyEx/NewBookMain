@@ -1,6 +1,6 @@
 package org.example.bookstoremain.controller;
 
-import org.example.bookstoremain.entity.PickupLocation;
+import org.example.bookstoremain.model.PickupLocation;
 import org.example.bookstoremain.service.PickupLocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

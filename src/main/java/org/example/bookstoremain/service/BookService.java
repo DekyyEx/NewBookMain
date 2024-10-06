@@ -1,6 +1,6 @@
 package org.example.bookstoremain.service;
 
-import org.example.bookstoremain.entity.Book;
+import org.example.bookstoremain.model.Book;
 import org.example.bookstoremain.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
