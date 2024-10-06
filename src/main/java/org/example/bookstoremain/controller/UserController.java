@@ -1,6 +1,6 @@
 package org.example.bookstoremain.controller;
 
-import org.example.bookstoremain.model.User;
+import org.example.bookstoremain.entity.User;
 import org.example.bookstoremain.service.UserService;
 import org.springframework.web.bind.annotation.*;
 

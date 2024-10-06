@@ -1,9 +1,8 @@
-package org.example.bookstoremain.model;
-
-import lombok.Data;
+package org.example.bookstoremain.entity;
 
 import jakarta.persistence.*;
-import java.time.LocalDateTime;
+import lombok.Data;
+
 import java.util.List;
 
 @Data

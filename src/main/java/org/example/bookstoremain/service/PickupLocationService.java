@@ -1,6 +1,6 @@
 package org.example.bookstoremain.service;
 
-import org.example.bookstoremain.model.PickupLocation;
+import org.example.bookstoremain.entity.PickupLocation;
 import org.example.bookstoremain.repository.PickupLocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
