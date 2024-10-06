@@ -42,6 +42,14 @@ public class BookService {
         book.setId(id);
         return bookRepository.save(book);
     }
+    public void addBook(String title, String author, String isbn, double price) {
+        Book book = new Book();
+        book.setTitle(title);
+        book.setAuthor(author);
+        book.setIsbn(isbn);
+        book.setPrice(price);
+        bookRepository.save(book);
+    }
 
     public void deleteById(Long id) {
         bookRepository.deleteById(id);
